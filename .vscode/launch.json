@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+
+
+    {
+      "name": "Cortex Debug: STM32F103ZET6 (ST-Link)",
+      "type": "cortex-debug",
+      "request": "launch",
+      "servertype": "stlink",
+      "gdbPath": "C:\\Users\\zu\\.eide\\tools\\gcc_arm\\bin\\arm-none-eabi-gdb.exe",
+      "stlinkPath": "C:\\Users\\zu\\.eide\\tools\\stlink_gdb_server\\bin\\ST-LINK_gdbserver.exe",
+      "cwd": "${workspaceFolder}",
+      "executable": "${workspaceFolder}/Project1/build/Debug/Project1.elf",
+      "device": "STM32F103ZETx",
+      "runToEntryPoint": "main",
+      "stm32cubeprogrammer": "C:\\Users\\zu\\.eide\\tools\\st_cube_programer\\bin",
+      "showDevDebugOutput": "raw"
+    }
+  ]
+}
